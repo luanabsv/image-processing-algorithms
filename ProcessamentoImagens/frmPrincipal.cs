@@ -101,5 +101,14 @@ namespace ProcessamentoImagens
             Filtros.espelhoDiagonalPrincipal(imageBitmap, imgDest);
             pictBoxImg2.Image = imgDest;
         }
+
+        private void btnPretoEBranco_Click(object sender, EventArgs e)
+        {
+            Bitmap imgDest = new Bitmap(image);
+            imageBitmap = (Bitmap)image;
+            Filtros.pretoEBranco(imageBitmap, imgDest);
+            pictBoxImg2.Image = imgDest;
+
+        }
     }
 }

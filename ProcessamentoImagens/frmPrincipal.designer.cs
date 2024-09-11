@@ -41,6 +41,7 @@
             this.btnEspelhoVertical = new System.Windows.Forms.Button();
             this.btnInverterRB = new System.Windows.Forms.Button();
             this.btnEspelhoDiagonalPrincial = new System.Windows.Forms.Button();
+            this.btnPretoEBranco = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictBoxImg1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictBoxImg2)).BeginInit();
             this.SuspendLayout();
@@ -92,7 +93,7 @@
             this.btnLuminanciaSemDMA.Location = new System.Drawing.Point(292, 630);
             this.btnLuminanciaSemDMA.Margin = new System.Windows.Forms.Padding(4);
             this.btnLuminanciaSemDMA.Name = "btnLuminanciaSemDMA";
-            this.btnLuminanciaSemDMA.Size = new System.Drawing.Size(277, 28);
+            this.btnLuminanciaSemDMA.Size = new System.Drawing.Size(189, 28);
             this.btnLuminanciaSemDMA.TabIndex = 108;
             this.btnLuminanciaSemDMA.Text = "Luminância sem DMA";
             this.btnLuminanciaSemDMA.UseVisualStyleBackColor = true;
@@ -103,7 +104,7 @@
             this.btnLuminanciaComDMA.Location = new System.Drawing.Point(292, 666);
             this.btnLuminanciaComDMA.Margin = new System.Windows.Forms.Padding(4);
             this.btnLuminanciaComDMA.Name = "btnLuminanciaComDMA";
-            this.btnLuminanciaComDMA.Size = new System.Drawing.Size(277, 28);
+            this.btnLuminanciaComDMA.Size = new System.Drawing.Size(189, 28);
             this.btnLuminanciaComDMA.TabIndex = 109;
             this.btnLuminanciaComDMA.Text = "Luminância com DMA";
             this.btnLuminanciaComDMA.UseVisualStyleBackColor = true;
@@ -111,10 +112,10 @@
             // 
             // btnNegativoComDMA
             // 
-            this.btnNegativoComDMA.Location = new System.Drawing.Point(577, 666);
+            this.btnNegativoComDMA.Location = new System.Drawing.Point(489, 666);
             this.btnNegativoComDMA.Margin = new System.Windows.Forms.Padding(4);
             this.btnNegativoComDMA.Name = "btnNegativoComDMA";
-            this.btnNegativoComDMA.Size = new System.Drawing.Size(277, 28);
+            this.btnNegativoComDMA.Size = new System.Drawing.Size(188, 28);
             this.btnNegativoComDMA.TabIndex = 111;
             this.btnNegativoComDMA.Text = "Negativo com DMA";
             this.btnNegativoComDMA.UseVisualStyleBackColor = true;
@@ -122,10 +123,10 @@
             // 
             // btnNegativoSemDMA
             // 
-            this.btnNegativoSemDMA.Location = new System.Drawing.Point(577, 630);
+            this.btnNegativoSemDMA.Location = new System.Drawing.Point(489, 630);
             this.btnNegativoSemDMA.Margin = new System.Windows.Forms.Padding(4);
             this.btnNegativoSemDMA.Name = "btnNegativoSemDMA";
-            this.btnNegativoSemDMA.Size = new System.Drawing.Size(277, 28);
+            this.btnNegativoSemDMA.Size = new System.Drawing.Size(188, 28);
             this.btnNegativoSemDMA.TabIndex = 110;
             this.btnNegativoSemDMA.Text = "Negativo sem DMA";
             this.btnNegativoSemDMA.UseVisualStyleBackColor = true;
@@ -171,11 +172,22 @@
             this.btnEspelhoDiagonalPrincial.UseVisualStyleBackColor = true;
             this.btnEspelhoDiagonalPrincial.Click += new System.EventHandler(this.btnEspelhoDiagonalPrincipal);
             // 
+            // btnPretoEBranco
+            // 
+            this.btnPretoEBranco.Location = new System.Drawing.Point(292, 700);
+            this.btnPretoEBranco.Name = "btnPretoEBranco";
+            this.btnPretoEBranco.Size = new System.Drawing.Size(189, 26);
+            this.btnPretoEBranco.TabIndex = 116;
+            this.btnPretoEBranco.Text = "Preto e Branco";
+            this.btnPretoEBranco.UseVisualStyleBackColor = true;
+            this.btnPretoEBranco.Click += new System.EventHandler(this.btnPretoEBranco_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1627, 748);
+            this.Controls.Add(this.btnPretoEBranco);
             this.Controls.Add(this.btnEspelhoDiagonalPrincial);
             this.Controls.Add(this.btnInverterRB);
             this.Controls.Add(this.btnEspelhoVertical);
@@ -213,6 +225,7 @@
         private System.Windows.Forms.Button btnEspelhoVertical;
         private System.Windows.Forms.Button btnInverterRB;
         private System.Windows.Forms.Button btnEspelhoDiagonalPrincial;
+        private System.Windows.Forms.Button btnPretoEBranco;
     }
 }
 

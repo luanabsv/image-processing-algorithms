@@ -237,5 +237,40 @@ namespace ProcessamentoImagens
                 auxHeight--;
             }
         }
+
+        public static void pretoEBranco(Bitmap imageBitmapSrc, Bitmap imageBitmapDest)
+        {
+            int height = imageBitmapSrc.Height;
+            int width = imageBitmapSrc.Width;
+
+            for (int y = 0; y < height; y++)
+            {
+                for(int x = 0; x < width; x++)
+                {
+                    Color cor = imageBitmapSrc.GetPixel(x, y) ;
+
+                    int r = cor.R;
+                    int g = cor.G;
+                    int b = cor.B;
+
+                    int media = (r + g + b) / 3;
+
+                    Color novaCor;
+
+                    if (media >= 127)
+                    {
+                        novaCor = Color.White;   
+                    }
+                    else
+                    {
+                        novaCor = Color.Black;
+                    }
+
+                    imageBitmapDest.SetPixel(x, y, novaCor);
+                }
+            }
+
+
+        }
     }
 }
