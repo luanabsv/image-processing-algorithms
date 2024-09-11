@@ -37,6 +37,7 @@
             this.btnLuminanciaComDMA = new System.Windows.Forms.Button();
             this.btnNegativoComDMA = new System.Windows.Forms.Button();
             this.btnNegativoSemDMA = new System.Windows.Forms.Button();
+            this.btnEspelhoHorizontal = new System.Windows.Forms.Button();
             this.btnEspelhoVertical = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictBoxImg1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictBoxImg2)).BeginInit();
@@ -128,15 +129,25 @@
             this.btnNegativoSemDMA.UseVisualStyleBackColor = true;
             this.btnNegativoSemDMA.Click += new System.EventHandler(this.btnNegativoSemDMA_Click);
             // 
+            // btnEspelhoHorizontal
+            // 
+            this.btnEspelhoHorizontal.Location = new System.Drawing.Point(149, 666);
+            this.btnEspelhoHorizontal.Name = "btnEspelhoHorizontal";
+            this.btnEspelhoHorizontal.Size = new System.Drawing.Size(132, 28);
+            this.btnEspelhoHorizontal.TabIndex = 112;
+            this.btnEspelhoHorizontal.Text = "Espelho Horizontal";
+            this.btnEspelhoHorizontal.UseVisualStyleBackColor = true;
+            this.btnEspelhoHorizontal.Click += new System.EventHandler(this.btnEspelhoHorizontal_Click);
+            // 
             // btnEspelhoVertical
             // 
-            this.btnEspelhoVertical.Location = new System.Drawing.Point(149, 666);
+            this.btnEspelhoVertical.Location = new System.Drawing.Point(7, 666);
             this.btnEspelhoVertical.Name = "btnEspelhoVertical";
-            this.btnEspelhoVertical.Size = new System.Drawing.Size(132, 28);
-            this.btnEspelhoVertical.TabIndex = 112;
-            this.btnEspelhoVertical.Text = "Espelho Horizontal";
+            this.btnEspelhoVertical.Size = new System.Drawing.Size(135, 28);
+            this.btnEspelhoVertical.TabIndex = 113;
+            this.btnEspelhoVertical.Text = "Espelho Vertical";
             this.btnEspelhoVertical.UseVisualStyleBackColor = true;
-            this.btnEspelhoVertical.Click += new System.EventHandler(this.btnEspelhoHorizontal_Click);
+            this.btnEspelhoVertical.Click += new System.EventHandler(this.btnEspelhoVertical_Click);
             // 
             // frmPrincipal
             // 
@@ -144,6 +155,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1627, 748);
             this.Controls.Add(this.btnEspelhoVertical);
+            this.Controls.Add(this.btnEspelhoHorizontal);
             this.Controls.Add(this.btnNegativoComDMA);
             this.Controls.Add(this.btnNegativoSemDMA);
             this.Controls.Add(this.btnLuminanciaComDMA);
@@ -173,6 +185,7 @@
         private System.Windows.Forms.Button btnLuminanciaComDMA;
         private System.Windows.Forms.Button btnNegativoComDMA;
         private System.Windows.Forms.Button btnNegativoSemDMA;
+        private System.Windows.Forms.Button btnEspelhoHorizontal;
         private System.Windows.Forms.Button btnEspelhoVertical;
     }
 }

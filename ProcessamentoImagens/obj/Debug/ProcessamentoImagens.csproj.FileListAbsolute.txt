@@ -17,3 +17,13 @@ C:\Users\luegi\Downloads\ProcessamentoImagens\ProcessamentoImagens\Processamento
 C:\Users\luegi\Downloads\ProcessamentoImagens\ProcessamentoImagens\ProcessamentoImagens\obj\Debug\ProcessamentoImagens.csproj.CoreCompileInputs.cache
 C:\Users\luegi\Downloads\ProcessamentoImagens\ProcessamentoImagens\ProcessamentoImagens\obj\Debug\ProcessamentoImagens.exe
 C:\Users\luegi\Downloads\ProcessamentoImagens\ProcessamentoImagens\ProcessamentoImagens\obj\Debug\ProcessamentoImagens.pdb
+C:\Users\luegi\Documents\Faculdade\6° Termo\ProcessamentoImagens\ProcessamentoImagens\bin\Debug\ProcessamentoImagens.exe.config
+C:\Users\luegi\Documents\Faculdade\6° Termo\ProcessamentoImagens\ProcessamentoImagens\bin\Debug\ProcessamentoImagens.exe
+C:\Users\luegi\Documents\Faculdade\6° Termo\ProcessamentoImagens\ProcessamentoImagens\bin\Debug\ProcessamentoImagens.pdb
+C:\Users\luegi\Documents\Faculdade\6° Termo\ProcessamentoImagens\ProcessamentoImagens\obj\Debug\ProcessamentoImagens.csproj.AssemblyReference.cache
+C:\Users\luegi\Documents\Faculdade\6° Termo\ProcessamentoImagens\ProcessamentoImagens\obj\Debug\ProcessamentoImagens.frmPrincipal.resources
+C:\Users\luegi\Documents\Faculdade\6° Termo\ProcessamentoImagens\ProcessamentoImagens\obj\Debug\ProcessamentoImagens.Properties.Resources.resources
+C:\Users\luegi\Documents\Faculdade\6° Termo\ProcessamentoImagens\ProcessamentoImagens\obj\Debug\ProcessamentoImagens.csproj.GenerateResource.cache
+C:\Users\luegi\Documents\Faculdade\6° Termo\ProcessamentoImagens\ProcessamentoImagens\obj\Debug\ProcessamentoImagens.csproj.CoreCompileInputs.cache
+C:\Users\luegi\Documents\Faculdade\6° Termo\ProcessamentoImagens\ProcessamentoImagens\obj\Debug\ProcessamentoImagens.exe
+C:\Users\luegi\Documents\Faculdade\6° Termo\ProcessamentoImagens\ProcessamentoImagens\obj\Debug\ProcessamentoImagens.pdb

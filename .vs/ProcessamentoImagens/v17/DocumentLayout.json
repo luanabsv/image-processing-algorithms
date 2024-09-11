@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{62FFB5F4-39D7-491B-B53A-8266E2053D1B}|ProcessamentoImagens\\ProcessamentoImagens.csproj|solutionrelative:processamentoimagens\\filtros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62FFB5F4-39D7-491B-B53A-8266E2053D1B}|ProcessamentoImagens\\ProcessamentoImagens.csproj|C:\\Users\\luegi\\Documents\\Faculdade\\6\u00B0 Termo\\ProcessamentoImagens\\processamentoimagens\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62FFB5F4-39D7-491B-B53A-8266E2053D1B}|ProcessamentoImagens\\ProcessamentoImagens.csproj|solutionrelative:processamentoimagens\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{62FFB5F4-39D7-491B-B53A-8266E2053D1B}|ProcessamentoImagens\\ProcessamentoImagens.csproj|C:\\Users\\luegi\\Documents\\Faculdade\\6\u00B0 Termo\\ProcessamentoImagens\\processamentoimagens\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{62FFB5F4-39D7-491B-B53A-8266E2053D1B}|ProcessamentoImagens\\ProcessamentoImagens.csproj|solutionrelative:processamentoimagens\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{62FFB5F4-39D7-491B-B53A-8266E2053D1B}|ProcessamentoImagens\\ProcessamentoImagens.csproj|C:\\Users\\luegi\\Documents\\Faculdade\\6\u00B0 Termo\\ProcessamentoImagens\\processamentoimagens\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62FFB5F4-39D7-491B-B53A-8266E2053D1B}|ProcessamentoImagens\\ProcessamentoImagens.csproj|solutionrelative:processamentoimagens\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{62FFB5F4-39D7-491B-B53A-8266E2053D1B}|ProcessamentoImagens\\ProcessamentoImagens.csproj|C:\\Users\\luegi\\Documents\\Faculdade\\6\u00B0 Termo\\ProcessamentoImagens\\processamentoimagens\\frmprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62FFB5F4-39D7-491B-B53A-8266E2053D1B}|ProcessamentoImagens\\ProcessamentoImagens.csproj|solutionrelative:processamentoimagens\\frmprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\luegi\\Documents\\Faculdade\\6\u00B0 Termo\\ProcessamentoImagens\\ProcessamentoImagens\\frmImagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProcessamentoImagens\\frmImagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\luegi\\Documents\\Faculdade\\6\u00B0 Termo\\ProcessamentoImagens\\ProcessamentoImagens\\frmImagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{62FFB5F4-39D7-491B-B53A-8266E2053D1B}|ProcessamentoImagens\\ProcessamentoImagens.csproj|C:\\Users\\luegi\\Documents\\Faculdade\\6\u00B0 Termo\\ProcessamentoImagens\\processamentoimagens\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62FFB5F4-39D7-491B-B53A-8266E2053D1B}|ProcessamentoImagens\\ProcessamentoImagens.csproj|solutionrelative:processamentoimagens\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\luegi\\Documents\\Faculdade\\6\u00B0 Termo\\ProcessamentoImagens\\ProcessamentoImagens\\frmImagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProcessamentoImagens\\frmImagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,15 +42,16 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "frmPrincipal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\luegi\\Documents\\Faculdade\\6\u00B0 Termo\\ProcessamentoImagens\\ProcessamentoImagens\\frmPrincipal.cs",
               "RelativeDocumentMoniker": "ProcessamentoImagens\\frmPrincipal.cs",
-              "ToolTip": "C:\\Users\\luegi\\Downloads\\ProcessamentoImagens\\ProcessamentoImagens\\ProcessamentoImagens\\frmPrincipal.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\ProcessamentoImagens\\ProcessamentoImagens\\ProcessamentoImagens\\frmPrincipal.cs [Design]",
+              "ToolTip": "C:\\Users\\luegi\\Documents\\Faculdade\\6\u00B0 Termo\\ProcessamentoImagens\\ProcessamentoImagens\\frmPrincipal.cs [Design]",
+              "RelativeToolTip": "ProcessamentoImagens\\frmPrincipal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T11:35:50.266Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -60,9 +61,23 @@
               "RelativeDocumentMoniker": "ProcessamentoImagens\\Filtros.cs",
               "ToolTip": "C:\\Users\\luegi\\Documents\\Faculdade\\6\u00B0 Termo\\ProcessamentoImagens\\ProcessamentoImagens\\Filtros.cs",
               "RelativeToolTip": "ProcessamentoImagens\\Filtros.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAuwKIAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAnwMQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-10T14:26:31.587Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmImagem.cs",
+              "DocumentMoniker": "C:\\Users\\luegi\\Documents\\Faculdade\\6\u00B0 Termo\\ProcessamentoImagens\\ProcessamentoImagens\\frmImagem.cs",
+              "RelativeDocumentMoniker": "ProcessamentoImagens\\frmImagem.cs",
+              "ToolTip": "C:\\Users\\luegi\\Documents\\Faculdade\\6\u00B0 Termo\\ProcessamentoImagens\\ProcessamentoImagens\\frmImagem.cs",
+              "RelativeToolTip": "ProcessamentoImagens\\frmImagem.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAjwBkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T12:05:44.738Z",
               "EditorCaption": ""
             },
             {
@@ -75,19 +90,8 @@
               "RelativeToolTip": "ProcessamentoImagens\\frmImagem.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAjwBkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T12:05:44.738Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frmImagem.cs",
-              "DocumentMoniker": "C:\\Users\\luegi\\Documents\\Faculdade\\6\u00B0 Termo\\ProcessamentoImagens\\ProcessamentoImagens\\frmImagem.cs",
-              "RelativeDocumentMoniker": "ProcessamentoImagens\\frmImagem.cs",
-              "ToolTip": "C:\\Users\\luegi\\Documents\\Faculdade\\6\u00B0 Termo\\ProcessamentoImagens\\ProcessamentoImagens\\frmImagem.cs",
-              "RelativeToolTip": "ProcessamentoImagens\\frmImagem.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAjwBkAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T12:05:44.738Z"
+              "WhenOpened": "2024-08-20T12:05:44.738Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -97,33 +101,36 @@
               "RelativeDocumentMoniker": "ProcessamentoImagens\\frmPrincipal.designer.cs",
               "ToolTip": "C:\\Users\\luegi\\Documents\\Faculdade\\6\u00B0 Termo\\ProcessamentoImagens\\ProcessamentoImagens\\frmPrincipal.designer.cs",
               "RelativeToolTip": "ProcessamentoImagens\\frmPrincipal.designer.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAkwIoAAABkAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwJUAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T11:40:52.377Z"
+              "WhenOpened": "2024-08-20T11:40:52.377Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "frmPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\luegi\\Documents\\Faculdade\\6\u00B0 Termo\\ProcessamentoImagens\\ProcessamentoImagens\\frmPrincipal.cs",
               "RelativeDocumentMoniker": "ProcessamentoImagens\\frmPrincipal.cs",
               "ToolTip": "C:\\Users\\luegi\\Documents\\Faculdade\\6\u00B0 Termo\\ProcessamentoImagens\\ProcessamentoImagens\\frmPrincipal.cs",
               "RelativeToolTip": "ProcessamentoImagens\\frmPrincipal.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAtwEwAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAqwFMAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T11:36:19.34Z"
+              "WhenOpened": "2024-08-20T11:36:19.34Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\luegi\\Documents\\Faculdade\\6\u00B0 Termo\\ProcessamentoImagens\\ProcessamentoImagens\\Program.cs",
               "RelativeDocumentMoniker": "ProcessamentoImagens\\Program.cs",
               "ToolTip": "C:\\Users\\luegi\\Documents\\Faculdade\\6\u00B0 Termo\\ProcessamentoImagens\\ProcessamentoImagens\\Program.cs",
               "RelativeToolTip": "ProcessamentoImagens\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T11:36:00.452Z"
+              "WhenOpened": "2024-08-20T11:36:00.452Z",
+              "EditorCaption": ""
             }
           ]
         }

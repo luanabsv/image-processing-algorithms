@@ -76,5 +76,14 @@ namespace ProcessamentoImagens
             Filtros.espelhoHorizontal(imageBitmap, imgDest);
             pictBoxImg2.Image = imgDest;
         }
+
+        private void btnEspelhoVertical_Click(object sender, EventArgs e)
+        {
+            Bitmap imgDest = new Bitmap(image);
+            imageBitmap = (Bitmap)image;
+            Filtros.espelhoVerical(imageBitmap, imgDest);
+            pictBoxImg2.Image = imgDest;
+            
+        }
     }
 }

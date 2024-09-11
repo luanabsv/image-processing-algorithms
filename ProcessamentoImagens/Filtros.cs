@@ -173,5 +173,26 @@ namespace ProcessamentoImagens
                 }
             }
         }
+
+        public static void espelhoVerical(Bitmap imageBitmapSrc, Bitmap imageBitmapDest)
+        {
+            int height = imageBitmapSrc.Height;
+            int width = imageBitmapSrc.Width;
+
+            int posFinal;
+
+            for (int x = 0; x < width; x++)
+            {
+                posFinal = height - 1;
+                for (int y = 0; y < height; y++)
+                {
+                   
+                    Color cor = imageBitmapSrc.GetPixel(x, y);
+
+                    imageBitmapDest.SetPixel(x, posFinal, cor);
+                    posFinal--;
+                }
+            }
+        }
     }
 }
