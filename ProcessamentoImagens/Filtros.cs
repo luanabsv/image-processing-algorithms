@@ -269,8 +269,35 @@ namespace ProcessamentoImagens
                     imageBitmapDest.SetPixel(x, y, novaCor);
                 }
             }
+        }
 
+        public static void separaCanalRBG(Bitmap imageBitmapSrc, Bitmap imageBitmapDest, char canal)
+        {
+            int width = imageBitmapSrc.Width;
+            int height = imageBitmapSrc.Height;
 
+            for (int y = 0; y < height; y++)
+            {
+                for(int x = 0; x < width; x++)
+                {
+                    Color cor = imageBitmapSrc.GetPixel(x, y);
+
+                    Color novaCor;
+
+                    if (canal == 'R')
+                    {
+                        novaCor = Color.FromArgb(cor.R, 0, 0);
+                    } else if(canal == 'G')
+                    {
+                       novaCor = Color.FromArgb(0, cor.G, 0);
+                    } else
+                    {
+                        novaCor = Color.FromArgb(0, 0, cor.B);
+                    }
+
+                    imageBitmapDest.SetPixel(x, y, novaCor);
+                }
+            }
         }
     }
 }

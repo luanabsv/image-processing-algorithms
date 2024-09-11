@@ -42,6 +42,9 @@
             this.btnInverterRB = new System.Windows.Forms.Button();
             this.btnEspelhoDiagonalPrincial = new System.Windows.Forms.Button();
             this.btnPretoEBranco = new System.Windows.Forms.Button();
+            this.btnSeparaVermelho = new System.Windows.Forms.Button();
+            this.btnSeparaVerde = new System.Windows.Forms.Button();
+            this.btnSeparaAzul = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictBoxImg1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictBoxImg2)).BeginInit();
             this.SuspendLayout();
@@ -182,11 +185,44 @@
             this.btnPretoEBranco.UseVisualStyleBackColor = true;
             this.btnPretoEBranco.Click += new System.EventHandler(this.btnPretoEBranco_Click);
             // 
+            // btnSeparaVermelho
+            // 
+            this.btnSeparaVermelho.Location = new System.Drawing.Point(489, 700);
+            this.btnSeparaVermelho.Name = "btnSeparaVermelho";
+            this.btnSeparaVermelho.Size = new System.Drawing.Size(188, 26);
+            this.btnSeparaVermelho.TabIndex = 117;
+            this.btnSeparaVermelho.Text = "Separa Canal R";
+            this.btnSeparaVermelho.UseVisualStyleBackColor = true;
+            this.btnSeparaVermelho.Click += new System.EventHandler(this.btnSeparaCanalR_Click);
+            // 
+            // btnSeparaVerde
+            // 
+            this.btnSeparaVerde.Location = new System.Drawing.Point(684, 630);
+            this.btnSeparaVerde.Name = "btnSeparaVerde";
+            this.btnSeparaVerde.Size = new System.Drawing.Size(188, 26);
+            this.btnSeparaVerde.TabIndex = 118;
+            this.btnSeparaVerde.Text = "Separa Canal G";
+            this.btnSeparaVerde.UseVisualStyleBackColor = true;
+            this.btnSeparaVerde.Click += new System.EventHandler(this.btnSeparaCanalG_Click);
+            // 
+            // btnSeparaAzul
+            // 
+            this.btnSeparaAzul.Location = new System.Drawing.Point(684, 665);
+            this.btnSeparaAzul.Name = "btnSeparaAzul";
+            this.btnSeparaAzul.Size = new System.Drawing.Size(188, 26);
+            this.btnSeparaAzul.TabIndex = 119;
+            this.btnSeparaAzul.Text = "Separa Canal B";
+            this.btnSeparaAzul.UseVisualStyleBackColor = true;
+            this.btnSeparaAzul.Click += new System.EventHandler(this.btnSeparaCanalB_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1627, 748);
+            this.Controls.Add(this.btnSeparaAzul);
+            this.Controls.Add(this.btnSeparaVerde);
+            this.Controls.Add(this.btnSeparaVermelho);
             this.Controls.Add(this.btnPretoEBranco);
             this.Controls.Add(this.btnEspelhoDiagonalPrincial);
             this.Controls.Add(this.btnInverterRB);
@@ -204,6 +240,7 @@
             this.Name = "frmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formulário Principal";
+            //this.Load += new System.EventHandler(this.frmPrincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictBoxImg1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictBoxImg2)).EndInit();
             this.ResumeLayout(false);
@@ -226,6 +263,9 @@
         private System.Windows.Forms.Button btnInverterRB;
         private System.Windows.Forms.Button btnEspelhoDiagonalPrincial;
         private System.Windows.Forms.Button btnPretoEBranco;
+        private System.Windows.Forms.Button btnSeparaVermelho;
+        private System.Windows.Forms.Button btnSeparaVerde;
+        private System.Windows.Forms.Button btnSeparaAzul;
     }
 }
 

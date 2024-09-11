@@ -110,5 +110,34 @@ namespace ProcessamentoImagens
             pictBoxImg2.Image = imgDest;
 
         }
+
+        private void btnSeparaCanalR_Click(object sender, EventArgs e)
+        {
+            Bitmap imgDest = new Bitmap(image);
+            imageBitmap = (Bitmap)image;
+            Filtros.separaCanalRBG(imageBitmap, imgDest, 'R');
+            pictBoxImg2.Image = imgDest;
+        }
+
+        private void btnSeparaCanalG_Click(object sender, EventArgs e)
+        {
+            Bitmap imgDest = new Bitmap(image);
+            imageBitmap = (Bitmap)image;
+            Filtros.separaCanalRBG(imageBitmap, imgDest, 'G');
+            pictBoxImg2.Image = imgDest;
+        }
+
+        private void btnSeparaCanalB_Click(object sender, EventArgs e)
+        {
+            Bitmap imgDest = new Bitmap(image);
+            imageBitmap = (Bitmap)image;
+            Filtros.separaCanalRBG(imageBitmap, imgDest, 'B');
+            pictBoxImg2.Image = imgDest;
+        }
+
+        //private void frmPrincipal_Load(object sender, EventArgs e)
+        //{
+
+        //}
     }
 }
