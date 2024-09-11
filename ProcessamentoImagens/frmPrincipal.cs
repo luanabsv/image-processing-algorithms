@@ -85,5 +85,13 @@ namespace ProcessamentoImagens
             pictBoxImg2.Image = imgDest;
             
         }
+
+        private void btnInverterRB_Click(object sender, EventArgs e)
+        {
+            Bitmap imgDest = new Bitmap(image);
+            imageBitmap = (Bitmap)image;
+            Filtros.inverterRB(imageBitmap, imgDest);
+            pictBoxImg2.Image = imgDest;
+        }
     }
 }

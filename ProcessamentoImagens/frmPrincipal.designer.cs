@@ -39,6 +39,7 @@
             this.btnNegativoSemDMA = new System.Windows.Forms.Button();
             this.btnEspelhoHorizontal = new System.Windows.Forms.Button();
             this.btnEspelhoVertical = new System.Windows.Forms.Button();
+            this.btnInverterRB = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictBoxImg1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictBoxImg2)).BeginInit();
             this.SuspendLayout();
@@ -149,11 +150,22 @@
             this.btnEspelhoVertical.UseVisualStyleBackColor = true;
             this.btnEspelhoVertical.Click += new System.EventHandler(this.btnEspelhoVertical_Click);
             // 
+            // btnInverterRB
+            // 
+            this.btnInverterRB.Location = new System.Drawing.Point(7, 700);
+            this.btnInverterRB.Name = "btnInverterRB";
+            this.btnInverterRB.Size = new System.Drawing.Size(135, 26);
+            this.btnInverterRB.TabIndex = 114;
+            this.btnInverterRB.Text = "Inverter R e B";
+            this.btnInverterRB.UseVisualStyleBackColor = true;
+            this.btnInverterRB.Click += new System.EventHandler(this.btnInverterRB_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1627, 748);
+            this.Controls.Add(this.btnInverterRB);
             this.Controls.Add(this.btnEspelhoVertical);
             this.Controls.Add(this.btnEspelhoHorizontal);
             this.Controls.Add(this.btnNegativoComDMA);
@@ -187,6 +199,7 @@
         private System.Windows.Forms.Button btnNegativoSemDMA;
         private System.Windows.Forms.Button btnEspelhoHorizontal;
         private System.Windows.Forms.Button btnEspelhoVertical;
+        private System.Windows.Forms.Button btnInverterRB;
     }
 }
 

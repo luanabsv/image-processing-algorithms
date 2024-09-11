@@ -4,6 +4,7 @@ using System.Text;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
+using System.Net.NetworkInformation;
 
 namespace ProcessamentoImagens
 {
@@ -191,6 +192,28 @@ namespace ProcessamentoImagens
 
                     imageBitmapDest.SetPixel(x, posFinal, cor);
                     posFinal--;
+                }
+            }
+        }
+
+        public static void inverterRB(Bitmap imageBitmapSrc, Bitmap imageBitmapDest)
+        {
+            int width = imageBitmapSrc.Width;
+            int height = imageBitmapSrc.Height;
+
+            for (int x = 0; x < width; x++)
+            {
+                for(int y = 0; y < height; y++)
+                {
+                    Color cor = imageBitmapSrc.GetPixel(x, y);
+
+                    int r = cor.R;
+                    int g = cor.G;
+                    int b = cor.B;
+
+
+                    Color newColor = Color.FromArgb(b, g, r);
+                    imageBitmapDest.SetPixel(x, y, newColor);
                 }
             }
         }
