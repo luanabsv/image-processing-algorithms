@@ -93,5 +93,13 @@ namespace ProcessamentoImagens
             Filtros.inverterRB(imageBitmap, imgDest);
             pictBoxImg2.Image = imgDest;
         }
+
+        private void btnEspelhoDiagonalPrincipal(object sender, EventArgs e)
+        {
+            Bitmap imgDest = new Bitmap(image);
+            imageBitmap = (Bitmap)image;
+            Filtros.espelhoDiagonalPrincipal(imageBitmap, imgDest);
+            pictBoxImg2.Image = imgDest;
+        }
     }
 }

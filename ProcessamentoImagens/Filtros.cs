@@ -217,5 +217,25 @@ namespace ProcessamentoImagens
                 }
             }
         }
+
+        public static void espelhoDiagonalPrincipal(Bitmap imageBitmapSrc, Bitmap imageBitmapDest)
+        {
+            int height = imageBitmapSrc.Height;
+            int width = imageBitmapSrc.Width;
+
+            int auxHeight = height - 1;
+            for (int y = 0; y < height; y++)
+            {
+                int auxWidth = width - 1;
+                for (int x = 0; x < width; x++)
+                {
+                    Color cor = imageBitmapSrc.GetPixel(x, y);
+                    imageBitmapDest.SetPixel(auxWidth, auxHeight, cor);
+                    auxWidth--;
+                }
+
+                auxHeight--;
+            }
+        }
     }
 }

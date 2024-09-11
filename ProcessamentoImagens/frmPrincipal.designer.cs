@@ -40,6 +40,7 @@
             this.btnEspelhoHorizontal = new System.Windows.Forms.Button();
             this.btnEspelhoVertical = new System.Windows.Forms.Button();
             this.btnInverterRB = new System.Windows.Forms.Button();
+            this.btnEspelhoDiagonalPrincial = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictBoxImg1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictBoxImg2)).BeginInit();
             this.SuspendLayout();
@@ -160,11 +161,22 @@
             this.btnInverterRB.UseVisualStyleBackColor = true;
             this.btnInverterRB.Click += new System.EventHandler(this.btnInverterRB_Click);
             // 
+            // btnEspelhoDiagonalPrincial
+            // 
+            this.btnEspelhoDiagonalPrincial.Location = new System.Drawing.Point(149, 700);
+            this.btnEspelhoDiagonalPrincial.Name = "btnEspelhoDiagonalPrincial";
+            this.btnEspelhoDiagonalPrincial.Size = new System.Drawing.Size(132, 26);
+            this.btnEspelhoDiagonalPrincial.TabIndex = 115;
+            this.btnEspelhoDiagonalPrincial.Text = "Espelho Diagonal Principal";
+            this.btnEspelhoDiagonalPrincial.UseVisualStyleBackColor = true;
+            this.btnEspelhoDiagonalPrincial.Click += new System.EventHandler(this.btnEspelhoDiagonalPrincipal);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1627, 748);
+            this.Controls.Add(this.btnEspelhoDiagonalPrincial);
             this.Controls.Add(this.btnInverterRB);
             this.Controls.Add(this.btnEspelhoVertical);
             this.Controls.Add(this.btnEspelhoHorizontal);
@@ -200,6 +212,7 @@
         private System.Windows.Forms.Button btnEspelhoHorizontal;
         private System.Windows.Forms.Button btnEspelhoVertical;
         private System.Windows.Forms.Button btnInverterRB;
+        private System.Windows.Forms.Button btnEspelhoDiagonalPrincial;
     }
 }
 
