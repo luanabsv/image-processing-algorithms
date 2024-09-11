@@ -45,6 +45,7 @@
             this.btnSeparaVermelho = new System.Windows.Forms.Button();
             this.btnSeparaVerde = new System.Windows.Forms.Button();
             this.btnSeparaAzul = new System.Windows.Forms.Button();
+            this.btnInverterNoventa = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictBoxImg1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictBoxImg2)).BeginInit();
             this.SuspendLayout();
@@ -197,7 +198,7 @@
             // 
             // btnSeparaVerde
             // 
-            this.btnSeparaVerde.Location = new System.Drawing.Point(684, 630);
+            this.btnSeparaVerde.Location = new System.Drawing.Point(684, 632);
             this.btnSeparaVerde.Name = "btnSeparaVerde";
             this.btnSeparaVerde.Size = new System.Drawing.Size(188, 26);
             this.btnSeparaVerde.TabIndex = 118;
@@ -207,7 +208,7 @@
             // 
             // btnSeparaAzul
             // 
-            this.btnSeparaAzul.Location = new System.Drawing.Point(684, 665);
+            this.btnSeparaAzul.Location = new System.Drawing.Point(684, 668);
             this.btnSeparaAzul.Name = "btnSeparaAzul";
             this.btnSeparaAzul.Size = new System.Drawing.Size(188, 26);
             this.btnSeparaAzul.TabIndex = 119;
@@ -215,11 +216,22 @@
             this.btnSeparaAzul.UseVisualStyleBackColor = true;
             this.btnSeparaAzul.Click += new System.EventHandler(this.btnSeparaCanalB_Click);
             // 
+            // btnInverterNoventa
+            // 
+            this.btnInverterNoventa.Location = new System.Drawing.Point(684, 700);
+            this.btnInverterNoventa.Name = "btnInverterNoventa";
+            this.btnInverterNoventa.Size = new System.Drawing.Size(188, 26);
+            this.btnInverterNoventa.TabIndex = 120;
+            this.btnInverterNoventa.Text = "Inverter 90°";
+            this.btnInverterNoventa.UseVisualStyleBackColor = true;
+            this.btnInverterNoventa.Click += new System.EventHandler(this.btnInverterNoventa_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1627, 748);
+            this.Controls.Add(this.btnInverterNoventa);
             this.Controls.Add(this.btnSeparaAzul);
             this.Controls.Add(this.btnSeparaVerde);
             this.Controls.Add(this.btnSeparaVermelho);
@@ -240,7 +252,6 @@
             this.Name = "frmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formulário Principal";
-            //this.Load += new System.EventHandler(this.frmPrincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictBoxImg1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictBoxImg2)).EndInit();
             this.ResumeLayout(false);
@@ -266,6 +277,7 @@
         private System.Windows.Forms.Button btnSeparaVermelho;
         private System.Windows.Forms.Button btnSeparaVerde;
         private System.Windows.Forms.Button btnSeparaAzul;
+        private System.Windows.Forms.Button btnInverterNoventa;
     }
 }
 

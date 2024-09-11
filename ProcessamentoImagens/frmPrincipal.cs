@@ -135,9 +135,13 @@ namespace ProcessamentoImagens
             pictBoxImg2.Image = imgDest;
         }
 
-        //private void frmPrincipal_Load(object sender, EventArgs e)
-        //{
-
-        //}
+        private void btnInverterNoventa_Click(object sender, EventArgs e)
+        {
+            
+            Bitmap imgDest = new Bitmap(image.Height, image.Width);
+            imageBitmap = (Bitmap)image;
+            Filtros.inverterNoventa(imageBitmap, imgDest);
+            pictBoxImg2.Image = imgDest;
+        }
     }
 }

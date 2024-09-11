@@ -299,5 +299,24 @@ namespace ProcessamentoImagens
                 }
             }
         }
+
+        public static void inverterNoventa(Bitmap imageBitmapSrc, Bitmap imageBitmapDest) { 
+             
+            int width = imageBitmapSrc.Width;
+            int height = imageBitmapSrc.Height;
+
+            //int auxHeig
+
+            for (int y = 0; y < height; y++)
+            {
+                for (int x = 0; x < width; x++)
+                {
+                    Color cor = imageBitmapSrc.GetPixel(x, y);
+
+                    imageBitmapDest.SetPixel(y, width - 1 - x, cor);
+                }
+            }
+
+        }
     }
 }
