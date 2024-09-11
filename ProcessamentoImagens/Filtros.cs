@@ -318,5 +318,38 @@ namespace ProcessamentoImagens
             }
 
         }
+
+        public static void divisaoCentro(Bitmap imageBitmapSrc, Bitmap imageBitmapDest)
+        {
+            int height = imageBitmapSrc.Height;
+            int width = imageBitmapSrc.Width;
+
+            int centralX = width / 2;
+            int centralY = height / 2;
+
+            for(int y = 0; y < centralY; y++)
+            {
+                for(int x = 0; x < centralX; x++)
+                {
+                    Color cor = imageBitmapSrc.GetPixel(x, y);
+                    Color cor2 = imageBitmapSrc.GetPixel(x + centralX, y + centralY);
+
+                    imageBitmapDest.SetPixel(x, y, cor2);
+                    imageBitmapDest.SetPixel(x + centralX, y + centralY, cor);
+                }
+            }
+
+            for(int y = 0; y < centralY; y++)
+            {
+                for (int x = centralX; x < width; x++) 
+                {
+                    Color cor = imageBitmapSrc.GetPixel(x, y);
+                    Color cor2 = imageBitmapSrc.GetPixel(x - centralX, y + centralY);
+
+                    imageBitmapDest.SetPixel(x, y, cor2);
+                    imageBitmapDest.SetPixel(x - centralX, y + centralY, cor);
+                }
+            }
+        }
     }
 }

@@ -143,5 +143,13 @@ namespace ProcessamentoImagens
             Filtros.inverterNoventa(imageBitmap, imgDest);
             pictBoxImg2.Image = imgDest;
         }
+
+        private void btnDivisaoCentro_Click(object sender, EventArgs e)
+        {
+            Bitmap imgDest = new Bitmap(image);
+            imageBitmap = (Bitmap)image;
+            Filtros.divisaoCentro(imageBitmap, imgDest);
+            pictBoxImg2.Image = imgDest;
+        }
     }
 }

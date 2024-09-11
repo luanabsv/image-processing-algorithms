@@ -46,6 +46,7 @@
             this.btnSeparaVerde = new System.Windows.Forms.Button();
             this.btnSeparaAzul = new System.Windows.Forms.Button();
             this.btnInverterNoventa = new System.Windows.Forms.Button();
+            this.btnDivisaoCentro = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictBoxImg1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictBoxImg2)).BeginInit();
             this.SuspendLayout();
@@ -226,11 +227,22 @@
             this.btnInverterNoventa.UseVisualStyleBackColor = true;
             this.btnInverterNoventa.Click += new System.EventHandler(this.btnInverterNoventa_Click);
             // 
+            // btnDivisaoCentro
+            // 
+            this.btnDivisaoCentro.Location = new System.Drawing.Point(902, 630);
+            this.btnDivisaoCentro.Name = "btnDivisaoCentro";
+            this.btnDivisaoCentro.Size = new System.Drawing.Size(75, 23);
+            this.btnDivisaoCentro.TabIndex = 121;
+            this.btnDivisaoCentro.Text = "Divisão Pelo Centro";
+            this.btnDivisaoCentro.UseVisualStyleBackColor = true;
+            this.btnDivisaoCentro.Click += new System.EventHandler(this.btnDivisaoCentro_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1627, 748);
+            this.Controls.Add(this.btnDivisaoCentro);
             this.Controls.Add(this.btnInverterNoventa);
             this.Controls.Add(this.btnSeparaAzul);
             this.Controls.Add(this.btnSeparaVerde);
@@ -278,6 +290,7 @@
         private System.Windows.Forms.Button btnSeparaVerde;
         private System.Windows.Forms.Button btnSeparaAzul;
         private System.Windows.Forms.Button btnInverterNoventa;
+        private System.Windows.Forms.Button btnDivisaoCentro;
     }
 }
 
